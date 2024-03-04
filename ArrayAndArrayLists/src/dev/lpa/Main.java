@@ -1,5 +1,6 @@
 package dev.lpa;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
@@ -24,5 +25,9 @@ public class Main {
 
         var yetAnotherList = List.of("three", "four");
         System.out.println(yetAnotherList);
+
+        ArrayList<String> arr = new ArrayList<>(List.of("Robert", "Denis"));
+        arr.add("Bogdan");
+        System.out.println(arr);
     }
 }
